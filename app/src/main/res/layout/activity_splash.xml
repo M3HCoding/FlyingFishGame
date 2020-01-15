@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnWelcome"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/btnwelcome"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnFlyFish"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/btnflyfish"
+        android:text="The Flying Fish"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/playagain"
+        android:text="Game Play"
+        android:textColor="#0000FF"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="279dp"
+        android:layout_height="169dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/splash_icon" />
+</LinearLayout>
+
+
+    <!--</LinearLayout>-->

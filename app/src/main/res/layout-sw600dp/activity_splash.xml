@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dev.zmq.flyingfishgame.SplashActivity"
+    android:background="@drawable/splash">
+
+
+    <ImageView
+        android:id="@+id/imageViewStart"
+        android:layout_width="wrap_content"
+        android:layout_height="369dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="61dp"
+        android:src="@drawable/splash_icon" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_above="@+id/imageViewStart"
+        android:layout_alignLeft="@+id/imageViewStart"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/roundbutton"
+        android:text="The Flying Fish"
+        android:textAlignment="center"
+        android:textColor="#FF6347"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

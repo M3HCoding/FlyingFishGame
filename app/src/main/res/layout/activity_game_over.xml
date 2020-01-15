@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="dev.zmq.flyingfishgame.GameOverActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnGameOver"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/backgroundpage"
+        android:text="Game Over"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <Button
+        android:id="@+id/btnPlayAgain"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/playagain"
+        android:text="Start Play Again"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/btnScore"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/roundbutton"
+        android:text="Your Score:"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/btn_High_Score"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/btnwelcome"
+        android:text="High Score:"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/btnexit"
+        android:text="Exit"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:typeface="sans"/>
+
+    <ImageView
+        android:id="@+id/imageViewEnd"
+        android:layout_width="194dp"
+        android:layout_height="95dp"
+        android:layout_margin="18dp"
+        android:background="@drawable/splash_icon" />
+
+
+</LinearLayout>
